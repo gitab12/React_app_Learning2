@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav-items > li
+{
+  padding: 10px;
+}
+
+.image-logo {
+  width: 75px;
+  
+}
+
+.back-des{
+  background-image: url('../src/image/reactlogo.jfif');
+  background-size: cover;
+  height: 100vh;
+  background-color:whitesmoke;
+  
+}
+
+.Headername
+{
+  display: inline;
+  
+   white-space: nowrap;
+   position: absolute ; 
+   left: 40em;
+  
+}
+.head1 {
+  position: sticky;
+  top: 0;
+  padding: 15px 5px;
+  width:300px;
+  height:50px;
+   
+}
+
+.foot {
+  padding: 15px 5px;
+  background-color: rgb(7, 7, 7);
+  margin-top: auto;
+  text-align: left;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+ 
+}
